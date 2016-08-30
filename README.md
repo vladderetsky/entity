@@ -13,14 +13,18 @@ Receives an array of integers along with a unique ID and returns a set of arrays
 - Path: /addEntity
 - Request: POST
 
+Example:
 
 
-    Example:
     {
         “enity ": 1,
         "data": [1, 2, 3]
     }
-    Response:
+
+
+Response:
+
+
     {
         “permutations”: [
             [1, 2, 3],
@@ -40,27 +44,37 @@ Receives a unique ID and returns the sum of all integers that belong to the enti
 - Path: /sumEntity/entityID
 - Request: GET
 
+Example:
 
 
-    Example: /1
-    Response:
+    /1
+
+
+Response:
+
+
     {
         “sum”:36
     }
+
 
 ###Endpoint /updateEntity
 
 - Path: /updateEntity
 - Request: POST
 
+Example:
 
 
-    Example:
     {
         "entityID ": 1,
         "add": -1
     }
-    Response:
+
+
+Response:
+
+
     {
         "results": [
             [0, 1, 2],
