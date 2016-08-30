@@ -116,9 +116,9 @@ To run application, you have to specify its configuration in config/restsrv.ini 
 
     $ cd <directory where application was cloned or copied>
     $ export FLASK_APP=app.py
-    $ flask run
+    $ flask run --host=0.0.0.0 --port=8080
       or
-    $ python -m flask run
+    $ python -m flask run --host=0.0.0.0 --port=8080
 
 
 ###REST API Calls using the curl tool
