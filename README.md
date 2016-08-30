@@ -6,11 +6,12 @@ This is a JSON based REST API application that implements an Entity operations s
 
 ##Endpoints
 
-###/addEntity
+###Endpoint /addEntity
 
 Receives an array of integers along with a unique ID and returns a set of arrays which contain all unique permutations of the order of the integers.
-*Path: /addEntity
-*Request: POST
+
+- Path: /addEntity
+- Request: POST
 
 
     Example:
@@ -31,12 +32,12 @@ Receives an array of integers along with a unique ID and returns a set of arrays
     }
 
 
-###/sumEntity/entityID
+###Endpoint /sumEntity/entityID
 
 Receives a unique ID and returns the sum of all integers that belong to the entity that was added using end point.
 
-*Path: /sumEntity/entityID
-*Request: GET
+- Path: /sumEntity/entityID
+- Request: GET
 
 
     Example: /1
@@ -45,10 +46,10 @@ Receives a unique ID and returns the sum of all integers that belong to the enti
         “sum”:36
     }
 
-###/updateEntity
+###Endpoint /updateEntity
 
-*Path: /updateEntity
-*Request: POST
+- Path: /updateEntity
+- Request: POST
 
 
     Example:
