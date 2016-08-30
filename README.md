@@ -14,6 +14,7 @@ Receives an array of integers along with a unique ID and returns a set of arrays
 - Request: POST
 
 
+
     Example:
     {
         “enity ": 1,
@@ -40,6 +41,7 @@ Receives a unique ID and returns the sum of all integers that belong to the enti
 - Request: GET
 
 
+
     Example: /1
     Response:
     {
@@ -50,6 +52,7 @@ Receives a unique ID and returns the sum of all integers that belong to the enti
 
 - Path: /updateEntity
 - Request: POST
+
 
 
     Example:
